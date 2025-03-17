@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
-import coverpic from '../../assets/images/239.jpg';
+
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
@@ -72,7 +72,7 @@ function Landing() {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundImage: `url(${coverpic})` }}
+                    style={{ backgroundColor: theme.primary }}
                 >
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (

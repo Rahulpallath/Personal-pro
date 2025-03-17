@@ -24,7 +24,6 @@ function Education() {
                             course={edu.course}
                             startYear={edu.startYear}
                             endYear={edu.endYear}
-                            decsription={edu.decsription}
                         />
                     ))}
                 </div>
