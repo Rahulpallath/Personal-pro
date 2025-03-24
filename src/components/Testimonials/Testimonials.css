@@ -221,7 +221,10 @@
   }
   .review--content{
       border-radius: 20px;
-      min-height: 300px;
+      min-height: fit-content;
+  }
+  .single--testimony {
+    height: 600px;
   }
   .review--content p{
       font-size: 0.9rem;
