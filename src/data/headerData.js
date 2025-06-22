@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/Pallath_Rahul.pdf'
+import resume from '../assets/pdf/resume.pdf'
 import profilepic from '../assets/images/coverpic.jpg';
 
 export const headerData = {
