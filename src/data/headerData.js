@@ -4,7 +4,7 @@ import profilepic from '../assets/images/coverpic.jpg';
 export const headerData = {
     name: 'Rahul Krishna Pallath',
     title: "Front End Developer",
-    desciption:" Innovative Software Engineer with a passion for building scalable, user-centric web applications that deliver real impact. With 5+ years of experience in Angular, ReactJS, and TypeScript, I thrive on solving complex problems and crafting seamless, intuitive user experiences. Whether it’s optimizing performance, mentoring teams, or collaborating with UX designers, I’m driven by a commitment to excellence and a love for creating solutions that make a difference. Let’s build something amazing together!",
+    desciption:" Creative Software Engineer passionate about building scalable, AI-driven web applications that combine performance with great user experience. With 5+ years of experience across React, Next.js, and TypeScript, I specialize in crafting intuitive, accessible interfaces and full-stack systems. Currently at ColomboAI, I’m contributing to multimodal AI platforms in collaboration with Google, building dashboards that integrate LLMs, image, video, and audio workflows. I thrive on solving complex problems, mentoring peers, and partnering with designers to deliver seamless, impactful solutions. Let’s build something extraordinary together.",
     image: profilepic,
     resumePdf: resume
 }

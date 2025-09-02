@@ -31,7 +31,13 @@ function BackToTop() {
     const useStyles = makeStyles(() => ({
         icon: {
             fontSize: '3rem',
-            color: theme.tertiary,
+            color: theme.primary,
+            filter: 'drop-shadow(0 0 8px rgba(100,255,218,0.3))',
+            transition: 'transform 0.2s ease, filter 0.2s ease',
+            '&:hover': {
+                transform: 'translateY(-2px)',
+                filter: 'drop-shadow(0 0 14px rgba(100,255,218,0.5))',
+            }
         },
     }));
 

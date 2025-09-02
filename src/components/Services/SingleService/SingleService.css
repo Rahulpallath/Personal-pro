@@ -33,11 +33,12 @@
 
 .service-icon > svg {
     font-size: 2.8rem;
-    /* color: #000000; */
+    color: #000000;
 }
 
 .single-service:hover svg{
     animation: magic 0.7s ease-in-out both;
+    color: #000000;
 }
 
 @keyframes magic {

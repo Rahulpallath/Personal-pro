@@ -9,7 +9,7 @@ import {
     FaLinkedinIn,
     FaGithub,
     FaYoutube,
-    FaBloggerB,
+
     FaRedditAlien,
     FaStackOverflow,
     FaCodepen,
@@ -363,16 +363,7 @@ function Contacts() {
                                     <FaMediumM aria-label='Medium' />
                                 </a>
                             )}
-                            {socialsData.blogger && (
-                                <a
-                                    href={socialsData.blogger}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaBloggerB aria-label='Blogger' />
-                                </a>
-                            )}
+
                             {socialsData.youtube && (
                                 <a
                                     href={socialsData.youtube}

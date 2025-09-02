@@ -25,7 +25,7 @@ function Projects() {
             }
         },
         viewArr : {
-            color: theme.tertiary, 
+            color: 'rgb(215, 60, 249)', 
             backgroundColor: theme.secondary70,
             width: '40px',
             height: '40px',
@@ -35,7 +35,7 @@ function Projects() {
             cursor: 'pointer',
             transition: 'background-color 0.2s',
             "&:hover": {
-                color: theme.tertiary, 
+                color: 'rgb(215, 60, 249)', 
                 backgroundColor: theme.secondary,
             }
         },

@@ -2,5 +2,23 @@
     --primaryFont: 'Poppins', sans-serif;
     /* --primaryFont: 'Montserrat', sans-serif; */
     /* --primaryFont: 'Raleway', sans-serif; */
+    --glow: #64ffda;
+    --glow-dim: rgba(100, 255, 218, 0.35);
+    --bg-1: #0b1020;
+    --bg-2: #0e1530;
+    --bg-3: #091124;
 }
 
+/* App-wide dark gradient background with subtle vignette */
+.app {
+    min-height: 100vh;
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(123, 97, 255, 0.15), transparent 60%),
+      radial-gradient(1000px 500px at -10% 20%, rgba(100, 255, 218, 0.15), transparent 60%),
+      linear-gradient(180deg, var(--bg-2), var(--bg-1));
+}
+
+/* Shared glow helper */
+.neon-glow {
+    box-shadow: 0 0 0.5rem var(--glow-dim), 0 0 1.25rem var(--glow-dim), 0 0 2.5rem rgba(100, 255, 218, 0.25);
+}

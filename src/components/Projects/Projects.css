@@ -6,6 +6,7 @@
     min-height: 100vh;
     overflow-x: hidden;
     padding: 2rem;
+    background: transparent;
 }
 
 
@@ -22,6 +23,7 @@
     margin-bottom: 40px;
     font-size: 3.5rem;
     font-family: var(--primaryFont);
+    text-shadow: 0 0 12px rgba(100,255,218,0.15);
 }
 
 .projects--body {
@@ -64,6 +66,13 @@
     font-weight: 500;
     padding-left: 1.5rem;
     cursor: pointer;
+    box-shadow: 0 0 10px rgba(100,255,218,0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projects--viewAll a button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 16px rgba(100,255,218,0.35);
 }
 
 

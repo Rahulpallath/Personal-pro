@@ -13,7 +13,6 @@ import {
     FaLinkedin,
     FaGithub,
     FaYoutube,
-    FaBlogger,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -31,11 +30,14 @@ function Landing() {
             height: '50px',
             fontFamily: 'var(--primaryFont)',
             border: `3px solid ${theme.primary}`,
-            transition: '100ms ease-out',
+            transition: '200ms ease-out',
+            boxShadow: '0 0 10px rgba(100,255,218,0.15)',
             '&:hover': {
                 backgroundColor: theme.tertiary,
                 color: theme.secondary,
                 border: `3px solid ${theme.tertiary}`,
+                transform: 'translateY(-2px)',
+                boxShadow: '0 0 14px rgba(100,255,218,0.35)',
             },
             [t.breakpoints.down('sm')]: {
                 width: '180px',
@@ -53,11 +55,14 @@ function Landing() {
             fontWeight: '500',
             fontFamily: 'var(--primaryFont)',
             border: `3px solid ${theme.primary}`,
-            transition: '100ms ease-out',
+            transition: '200ms ease-out',
+            boxShadow: '0 0 10px rgba(100,255,218,0.25)',
             '&:hover': {
                 backgroundColor: theme.secondary,
                 color: theme.tertiary,
                 border: `3px solid ${theme.tertiary}`,
+                transform: 'translateY(-2px)',
+                boxShadow: '0 0 18px rgba(100,255,218,0.45)',
             },
             [t.breakpoints.down('sm')]: {
                 display: 'none',
@@ -72,7 +77,7 @@ function Landing() {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.primary }}
+                    style={{ background: `linear-gradient(180deg, ${theme.primary50}, rgba(123,97,255,0.12))` }}
                 >
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (
@@ -127,19 +132,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )}
+
                     </div>
                 </div>
                 <img
@@ -159,9 +152,9 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
-                        <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <h6 className='typewriter'>{headerData.title}</h6>
+                        <h1 className='neon-gradient-text'>{headerData.name}</h1>
+                        <p className='muted'>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (

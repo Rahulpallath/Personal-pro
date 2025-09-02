@@ -43,7 +43,7 @@ function ProjectPage() {
             },
         },
         home: {
-            color: theme.secondary,
+            color: 'rgb(215, 60, 249)',
             position: 'absolute',
             top: 25,
             left: 25,
@@ -56,7 +56,7 @@ function ProjectPage() {
             transition: 'all 0.3s ease-in-out',
             "&:hover": 
             {
-                color: theme.tertiary,
+                color: 'rgb(215, 60, 249)',
                 transform: 'scale(1.1)',
             },
             [t.breakpoints.down('sm')]: {

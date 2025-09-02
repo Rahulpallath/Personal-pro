@@ -8,6 +8,33 @@ import {
 } from './images'
 
 
+// A dark, neon-accented theme tailored for a programmer portfolio
+export const cyberThemeDark = {
+    type: 'dark',
+    // Neon teal primary with supportive shades
+    primary: '#64ffda',
+    primary400: '#80ffd3',
+    primary600: '#39e1bd',
+    primary80: '#64ffdad9',
+    primary50: '#64ffda80',
+    primary30: '#64ffda4d',
+    // Deep space background
+    secondary: '#0b1020',
+    secondary70: '#0b1020b3',
+    secondary50: '#0b102080',
+    // High-contrast text
+    tertiary: '#eaeaea',
+    tertiary80: '#eaeaeacc',
+    tertiary70: '#eaeaeab3',
+    tertiary50: '#eaeaea80',
+    // Reuse cool-toned illustrations
+    aboutimg1: blueThemeboy,
+    aboutimg2: purpleThemegirl,
+    eduimg: eduBlue,
+    expimg: expPurple,
+    contactsimg: contactsBlue
+}
+
 export const greenThemeLight = {
     type: 'light',
     primary: '#3fc337',
@@ -352,4 +379,3 @@ export const yellowThemeDark = {
     expimg: expYellow,
     contactsimg: contactsYellow
 }
-

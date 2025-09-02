@@ -1,5 +1,5 @@
 export const achievementData = {
-    bio : "During my tenure at Deloitte Consulting, I earned three spot awards for rapid issue resolution and exceptional project delivery, recognizing my ability to troubleshoot and resolve critical defects in production environments. I led the development of enterprise-level applications that improved user engagement by 30%, delivering seamless, cross-platform experiences for 50k+ users. My work on creating reusable, testable components reduced development time by 35%, significantly accelerating project timelines. I also received shoutouts from senior leadership for my contributions to designing responsive, ADA-compliant interfaces and optimizing application performance, which reduced load times by 20%. These achievements not only showcased my technical expertise but also demonstrated my ability to deliver high-impact solutions in a fast-paced, collaborative environment.",
+    bio: "At Deloitte Consulting, I earned three Spot Awards, one Applause Award, and an Outstanding Award for delivering high-impact solutions. I developed and deployed 30+ APIs and microservices serving 1M+ users, migrated monoliths to containerized services that improved scalability and reduced latency by 40%, and built reusable React/TypeScript components that cut development time by 35%. My focus on accessibility-first design and performance optimization improved engagement by 25% and reduced load times by 20%, while mentoring peers on scalable backend and UI best practices. At ColomboAI, I streamlined AI response pipelines across multimodal dashboards, optimizing chat streaming logic and ComfyUI workflows for 1,000+ real-time nodes. These improvements reduced latency and enhanced usability for creative professionals, shaping smoother AI-human interactions on the platform.",
     achievements : [
         {
             id : 1,
@@ -11,10 +11,10 @@ export const achievementData = {
         },
         {
             id : 2,
-            title : 'Spring Boot Developer (Mphasis Xpand)',
-            details : 'This certification showcases my expertise in Spring Boot, a framework for building scalable, microservices-based applications.',
-            date : 'Jul 14, 2024',
-            field : 'Backend Development',
+            title : 'Meta Certified React Developer',
+            details : 'This certification showcases my expertise in Meta React, a framework for building web applications.',
+            date : 'Jul 14, 2025',
+            field : 'Frontend Development',
             image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         },
         {

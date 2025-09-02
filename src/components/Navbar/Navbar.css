@@ -20,9 +20,13 @@
 
 .navbar--container > h1 {
     font-family: 'BestermindRegular';
-    color: var(--primary-2);
     font-size: 2.5rem;
     user-select: none;
+    background: linear-gradient(90deg, #9d8cff, #64ffda);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 10px rgba(100,255,218,0.12);
 }
 
 .navLink--container {
@@ -56,11 +60,24 @@
 
 
 @media (max-width:600px) {
+    .navbar {
+        height: 4rem;
+    }
+    .navbar--container {
+        margin-top: 0.5rem;
+        padding: 0 1.5rem;
+    }
     .nav-menu{
         color: var(--primary-2);
+        font-size: 2rem;
     }
     .navbar--container > h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        background: none;
+        -webkit-background-clip: unset;
+        background-clip: unset;
+        color: white !important;
+        text-shadow: none;
     }
     .nav-menu:hover{
         color: var(--primary-2);
@@ -74,13 +91,18 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 
   480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
     .navbar {
-        height: 5rem;
+        height: 3.5rem;
     }
     .navbar--container {
         padding: 0 1rem;
-        margin-top: 0rem;
+        margin-top: 0.25rem;
     }
     .navbar--container > h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        background: none;
+        -webkit-background-clip: unset;
+        background-clip: unset;
+        color: white !important;
+        text-shadow: none;
     }
 }
