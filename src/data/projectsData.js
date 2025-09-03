@@ -1,6 +1,6 @@
 import one from '../assets/svg/projects/one.svg'
 import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
+import ten from '../assets/svg/projects/ten.svg'
 // import four from '../assets/svg/projects/four.svg'
 // import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
@@ -16,7 +16,7 @@ export const projectsData = [
         tags: ['React', 'Node.js', 'AWS Amplify', 'AWS Bedrock', 'Cognito', 'Tailwind CSS'],
         code: 'https://github.com/Rahulpallath/mindmate',
         demo: 'https://dev.dfi69wt422dkk.amplifyapp.com/mindmate', // Replace if a separate live demo link exists
-        image: three // Replace with actual image import or path as per your codebase
+        image: ten // Replace with actual image import or path as per your codebase
     },
     {
         id: 1,
@@ -69,7 +69,7 @@ export const projectsData = [
         tags: ['Python', 'Web Scraping', 'Automation', 'Requests', 'BeautifulSoup', 'Email'],
         code: 'https://github.com/Rahulpallath/linkedin-job-alert', // Replace with your actual repo if different
         demo: 'https://github.com/Rahulpallath/Automatic-job-search', // No live demo since it's a script, leave blank or point to documentation if you have it
-        image: three // Replace with your actual image import or path as per your codebase
+        image: ten // Replace with your actual image import or path as per your codebase
     }
     
 ]
